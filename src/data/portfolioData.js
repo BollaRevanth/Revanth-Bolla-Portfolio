@@ -132,8 +132,6 @@ export const JOURNEY_ITEMS = [
 
 export const CONTACT_INFO = {
   email: 'revanthbolla2948@gmail.com',
-  phone: '+91-8074223906',
-  phoneHref: 'tel:+918074223906',
   github: 'https://github.com/BollaRevanth',
   linkedin: 'https://www.linkedin.com/in/revanthbolla/',
   resume: RESUME_URL,

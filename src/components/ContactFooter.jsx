@@ -5,7 +5,6 @@ import {
   Github,
   Linkedin,
   Mail,
-  Phone,
 } from 'lucide-react';
 import { CONTACT_INFO } from '../data/portfolioData';
 
@@ -16,13 +15,6 @@ export default function ContactFooter({ isDark }) {
       value: CONTACT_INFO.email,
       href: `mailto:${CONTACT_INFO.email}`,
       icon: Mail,
-      external: false,
-    },
-    {
-      label: 'Phone',
-      value: CONTACT_INFO.phone,
-      href: CONTACT_INFO.phoneHref,
-      icon: Phone,
       external: false,
     },
     {
@@ -90,7 +82,7 @@ export default function ContactFooter({ isDark }) {
         </motion.div>
 
         {/* Direct Contact Cards & Buttons */}
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {links.map((item) => {
             const Icon = item.icon;
             return (
