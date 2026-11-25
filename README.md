@@ -7,7 +7,7 @@ Personal developer portfolio showcasing full-stack engineering projects, core te
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-11-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
 
-**Live Demo:** [Live Portfolio Link — Update after deployment]
+**Live Demo:** [https://revanth-bolla-portfolio.vercel.app/](https://revanth-bolla-portfolio.vercel.app/)
 
 ---
 
@@ -67,3 +67,4 @@ npm run build
 - **Email:** [revanthbolla2948@gmail.com](mailto:revanthbolla2948@gmail.com)
 - **LinkedIn:** [linkedin.com/in/revanthbolla](https://www.linkedin.com/in/revanthbolla/)
 - **GitHub:** [github.com/BollaRevanth](https://github.com/BollaRevanth)
+- **Resume:** [View my Resume](https://drive.google.com/file/d/1xiBlUQjvRMj3Q1ZLceCgCwfvo-e5oWSY/view?usp=sharing)
