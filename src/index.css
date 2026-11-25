@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    overflow-x: clip;
+  }
+
+  body {
+    overflow-x: clip;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    transition: background-color 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+      color 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+}
+
+.perspective-1200 {
+  perspective: 1200px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+/* Subtle architectural dot grid background */
+.editorial-grid-light {
+  background-image: radial-gradient(rgba(24, 24, 27, 0.08) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.editorial-grid-dark {
+  background-image: radial-gradient(rgba(212, 175, 55, 0.1) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
