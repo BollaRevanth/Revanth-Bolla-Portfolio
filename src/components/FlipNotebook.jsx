@@ -77,15 +77,14 @@ export default function FlipNotebook({ isDark }) {
             }}
           />
 
-          <div className="relative min-h-[3.75rem] sm:min-h-[4.25rem] flex items-center pr-12">
+          <div className="relative min-h-[3.75rem] sm:min-h-[4.25rem] flex items-center pr-12 overflow-hidden">
             <AnimatePresence mode="wait">
               <motion.span
                 key={ROLES[index]}
-                initial={{ rotateX: -75, opacity: 0, y: -6 }}
-                animate={{ rotateX: 0, opacity: 1, y: 0 }}
-                exit={{ rotateX: 75, opacity: 0, y: 6 }}
-                transition={{ duration: 0.42, ease: [0.22, 1, 0.36, 1] }}
-                style={{ transformOrigin: 'top center' }}
+                initial={{ opacity: 0, y: -12 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: 12 }}
+                transition={{ duration: 0.24, ease: [0.22, 1, 0.36, 1] }}
                 className={`block text-xl sm:text-2xl md:text-[1.7rem] font-bold tracking-tight leading-snug ${
                   isDark ? 'text-[#F4F4F5]' : 'text-charcoal'
                 }`}

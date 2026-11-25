@@ -73,7 +73,7 @@ export default function Navbar({ isDark }) {
         </nav>
 
         {/* Mobile Menu Trigger */}
-        <div className="flex md:hidden items-center gap-3">
+        <div className="flex md:hidden items-center">
           <button
             type="button"
             onClick={() => setMobileOpen((prev) => !prev)}
@@ -87,9 +87,6 @@ export default function Navbar({ isDark }) {
           >
             {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
           </button>
-          <span className="text-xs font-mono uppercase tracking-widest opacity-70">
-            RB.
-          </span>
         </div>
 
         {/* Live IST Clock & Date Readout */}

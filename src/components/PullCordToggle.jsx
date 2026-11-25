@@ -175,7 +175,7 @@ export default function PullCordToggle({ isDark, onToggle }) {
 
   return (
     <div
-      className="fixed top-0 right-0 sm:right-2 md:right-4 z-50 pointer-events-none select-none"
+      className="fixed top-0 right-[-44px] sm:right-[-34px] md:right-[-26px] z-50 pointer-events-none select-none"
       style={{ width: `${ANCHOR_X * 2}px`, height: '210px' }}
     >
       {/* Curved Real Braided Rope SVG */}
