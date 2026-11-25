@@ -13,7 +13,7 @@ Personal developer portfolio showcasing full-stack engineering projects, core te
 
 ## Preview
 
-![Portfolio Preview](./preview.png)
+![Portfolio Preview](./public/preview.png)
 
 ---
 
@@ -68,3 +68,5 @@ npm run build
 - **LinkedIn:** [linkedin.com/in/revanthbolla](https://www.linkedin.com/in/revanthbolla/)
 - **GitHub:** [github.com/BollaRevanth](https://github.com/BollaRevanth)
 - **Resume:** [View my Resume](https://drive.google.com/file/d/1xiBlUQjvRMj3Q1ZLceCgCwfvo-e5oWSY/view?usp=sharing)
+
+---
