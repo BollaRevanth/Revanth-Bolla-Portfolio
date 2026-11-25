@@ -15,6 +15,10 @@ Personal developer portfolio showcasing full-stack engineering projects, core te
 
 ![Portfolio Preview](./public/preview.png)
 
+> **Pull the rope on the top right to toggle to Dark Mode.**
+
+![Portfolio Dark Mode Preview](./public/darkmode-preview.png)
+
 ---
 
 ## Key Highlights
